@@ -1,0 +1,21 @@
+{
+  "name": "db13-starter",
+  "version": "1.0.0",
+  "description": "Simple static starter site.",
+  "main": "index.html",
+  "author": "DB13",
+  "scripts": {
+    "dev": "webpack --progress --colors --watch",
+    "prod": "NODE_ENV=production webpack -p --config webpack.production.config.js"
+  },
+  "devDependencies": {
+    "harp": "^0.20.1",
+    "webpack": "^1.12.14"
+  },
+  "dependencies": {
+    "async": "^2.0.0-rc.2",
+    "async-series": "0.0.1",
+    "smooth-scroll": "cferdinandi/smooth-scroll",
+    "webfontloader": "^1.6.24"
+  }
+}
